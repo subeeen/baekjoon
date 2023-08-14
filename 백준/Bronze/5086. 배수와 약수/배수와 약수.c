@@ -7,5 +7,5 @@ int main() {
 		else if (a < b && b % a == 0) printf("factor\n");
 		else if (a == 0 && b == 0) break;
 		else printf("neither\n");
-	} while (a != 0 || b != 0);
+	} while(1);
 }
