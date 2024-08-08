@@ -7,14 +7,9 @@ bool b(int i) {
 	}
 	return true;
 }
-
 int main() {
-	cin.tie(NULL);
-	ios_base::sync_with_stdio(false);
-
 	int m, n;
 	cin >> m >> n;
-
 	for (int i = m; i <= n; i++) {
 		if (b(i)) cout << i << "\n";
 	}
